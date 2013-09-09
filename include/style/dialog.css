@@ -1,0 +1,110 @@
+@CHARSET "UTF-8";
+
+.ui-widget-overlay {
+    position:fixed;
+    background-color:#000;
+    background-image:none;
+    opacity:0.5;
+    filter:Alpha(Opacity=50);
+}
+
+
+.ui-dialog .ui-dialog-titlebar {
+    /*http://www.colorzilla.com/gradient-editor/#192429+0,3b5562+100;Custom*/
+    background: #192429;
+    background: -moz-linear-gradient(top,  #192429 0%, #3b5562 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#192429), color-stop(100%,#3b5562));
+    background: -webkit-linear-gradient(top,  #192429 0%,#3b5562 100%);
+    background: -o-linear-gradient(top,  #192429 0%,#3b5562 100%);
+    background: -ms-linear-gradient(top,  #192429 0%,#3b5562 100%);
+    background: linear-gradient(top,  #192429 0%,#3b5562 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#192429', endColorstr='#3b5562',GradientType=0 );
+
+    color:#FFF;
+    height:27px;
+    line-height:23px;
+    font-size:14px;
+    font-family:arial,helvetica,sans-serif;
+    padding:0px 10px;
+    border:none;
+}
+
+/*.ui-dialog {
+    -webkit-box-shadow: 0px 0px 7px 5px rgba(0, 0, 0, .2);
+    -moz-box-shadow: 0px 0px 7px 5px rgba(0, 0, 0, .2);
+    box-shadow: 0px 0px 7px 5px rgba(0, 0, 0, .2);
+    border:none;
+}
+
+.ui-widget-header .ui-icon {
+    width:18px;
+    height:16px;
+    background:url('/images/2011/button-dialog-close.png') no-repeat 0 0;
+}
+
+.ui-state-hover .ui-icon {
+    background-position:0 -16px;
+}
+
+.ui-state-hover,
+.ui-widget-content .ui-state-hover,
+.ui-widget-header .ui-state-hover {
+    border: none;
+    background: none;
+    outline:none;
+    padding:1px;
+    margin:-10px 0 0;
+    text-decoration:none;
+}*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.ui-widget-header {
+    color:#5E5E5E;
+    font-weight:normal;
+}
+.ui-widget {
+    font-family:arial,helvetica,sans-serif;
+}
+.ui-dialog .ui-state-hover, .ui-dialog .ui-widget-content .ui-state-hover, .ui-dialog .ui-state-focus, .ui-dialog .ui-widget-content .ui-state-focus {
+    border:none;
+    background:none;
+    background:url(/images/demos/btn_close_float_hover.png?2011) no-repeat 0 0;
+}
+.ui-dialog .ui-widget-header .ui-icon {
+    border:none;
+    background:none;
+    background:url(/images/demos/btn_close_float.png?2011) no-repeat 0 0;
+}
+.ui-dialog .ui-state-hover .ui-icon, .ui-dialog .ui-state-focus .ui-icon {
+    background:none;
+}
+.ui-dialog .ui-dialog-titlebar-close {
+    margin-top:-7px;
+    padding:0px;
+}.ui-dialog .ui-dialog-titlebar-close span {
+    margin:0px;
+}
+
+
+
+#dialog {
+    padding:10px;
+    overflow:visible;
+}
+
+.ui-dialog {
+    padding:5px;
+}
+

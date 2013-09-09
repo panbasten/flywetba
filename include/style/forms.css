@@ -1,0 +1,134 @@
+@CHARSET "UTF-8";
+
+.boiler_plate_form {
+    background:#FFF;
+    font-size:13px;
+    padding:0;
+    width:650px;
+    height:auto;
+    line-height:1.25em;
+}
+
+#form-message { margin-bottom:15px; }
+
+.hide { display:none; }
+
+#success {
+    font-weight:bold;
+    padding:15px;
+    margin-top:15px;
+    border:solid 2px #360;
+    background: #E6EFC2;
+    color: #264409;
+    border-color: #C6D880;
+}
+
+.error { color:#F00; }
+
+.errors-found {
+    font-weight:bold;
+    padding:15px;
+    margin-top:15px;
+    border:solid 2px #FBC2C4;
+    background:#FBE3E4;
+    color: #8A1F11;
+}
+
+.success {
+    font-weight:bold;
+    padding:15px;
+    margin-top:15px;
+    border:solid 2px #C6D880;
+    background: #E6EFC2;
+    color: #264409;
+}
+
+.rating_box { border-collapse:collapse; }
+.rating_box thead, .rating_box tbody { border-bottom:1px solid #CCC; }
+
+.form_row {
+    margin-bottom:10px;
+    overflow:hidden;
+}
+
+.form_row_shift {
+    clear:both;
+    margin-left:193px;
+    margin-bottom:15px;
+}
+
+#form_inline_row .label {
+    width:185px;
+    float:left;
+    text-align:right;
+    margin-right:10px;
+}
+
+.text {
+    border:1px solid #95A22C;
+    width:300px;
+    padding:1px 0;
+}
+
+select.text {
+    padding:0;
+    box-sizing:content-box;
+    -ms-box-sizing:content-box;
+    *width:303px;
+}
+
+.req { color:#EF6507; }
+
+.light_text {
+    color:#999;
+    font-weight:normal;
+}
+
+#us_state_row, #province_row, #hidden_row, #postal_row { display:none; }
+
+
+
+
+
+/**********************
+PARTNER ENABLEMENT FORM
+**********************/
+
+#partner-enablement fieldset { margin:25px 25px 0px 25px; }
+
+#partner-enablement .submit {
+    float:right;
+    margin:25px 25px;
+}
+
+#authorized-users {
+    width:100%;
+    border-collapse:collapse;
+}
+
+.authorized-user-group {
+    clear:both;
+    overflow:hidden;
+    margin-top:15px;
+}
+
+.authorized-user-group > div {
+    float:left;
+    margin-right:10px;
+}
+
+.authorized-user-group input[type="text"] { width:120px; }
+#authorized-users td { border:none; }
+#authorized-users #user-info { width:495px; }
+#authorized-users .permissions { text-align:center; }
+
+
+
+
+
+.text, select.text {
+    font-size:14px;
+    padding:5px;
+    border-radius:3px;
+    width:300px;
+}
