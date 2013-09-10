@@ -15,7 +15,7 @@ $cfg_soft_enname = 'FlywetCMS';
 $cfg_soft_devteam = 'Flywet官方团队';
 
 $cfg_basehost = 'http://localhost';
-$cfg_cmspath = 'flywet';
+$cfg_cmspath = 'flywetba';
 $cfg_cookie_encode = 'RsJOl1312Y';
 $cfg_indexurl = '/';
 $cfg_backup_dir = 'backupdata';

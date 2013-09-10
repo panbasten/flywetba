@@ -381,53 +381,54 @@ HOMEPAGE STYLES
 
 #slideshow #slide1 {
     padding-top:0;
-    color:#FFF;
-    text-align:center;
-    text-shadow:2px 2px 2px #000000;
+    background:url('../../images/2011/home-slide1-architecture.png') no-repeat 210px 170px;
 }
 
 #slide1 .large {
-    line-height:50px;
-    font-size:50px;
-    font-family:"PopulaireMedium",arial,helvetica,sans-serif;
+	margin-left: 30px;
+    margin-top: 40px;
+    font-size:32px;
 }
 
-#slide1 .big {
-    font-size:26px;
-    line-height:1.25em;
-    font-family:"Stymie-Med",arial,helvetica,sans-serif;
+#slide1 .small {
+	margin-left: 120px;
+    margin-top: 20px;
+    font-size:24px;
+}
+
+#slide1 .product {
+	margin:140px 0 0 20px;
+	color:#9CA839;
 }
 
 #slide1 a {
-    font-size:21px;
+    font-size:18px;
     font-family:"Stymie-Med",arial,helvetica,sans-serif;
-    line-height:1.25em;
-    margin-top:20px;
-    color:#FFF;
-    float:left;
+    line-height:1.5em;
+    color:#ccc;
     display:block;
 }
 
-#slide1 .dashboard {
-    padding-top:135px;
-    width:165px;
-    background:url('../../images/2011/home-slide1-dashboard.png') no-repeat 15px 15px;
+#slide1 .slide-text {
+    font-family:"Microsoft YaHei","微软雅黑","Microsoft JhengHei","宋体";
+    line-height:1.25em;
+    color:#fff;
+    float:left;
+    display:block;
+    text-align:left;
+    text-shadow:2px 2px 2px #000000;
 }
 
-#slide1 .puzzle {
-    margin-left:45px;
-    margin-right:45px;
-    padding-top:135px;
-    background:url('../../images/2011/home-slide1-puzzle.png') no-repeat 33px 0;
+#slide1 ul {
+    margin:45px 10px 0;
+    font-size:21px;
+    text-shadow:2px 2px 2px #000;
+    font-family:"Stymie-Med",arial,helvetica,sans-serif;
+    list-style:none;
+    line-height:24px;
 }
 
-#slide1 .data {
-    padding-top:135px;
-    width:136px;
-    background:url('../../images/2011/home-slide1-data.png?2013') no-repeat 20px 5px;
-}
-
-
+#slide1 li { margin:7px 0; }
 
 /** SLIDE 2 **/
 
@@ -438,25 +439,23 @@ HOMEPAGE STYLES
 }
 
 #slide2 .large {
-    text-align:center;
-    line-height:50px;
-    font-size:50px;
-    text-shadow:2px 2px 2px #000000;
-    font-family:"PopulaireMedium",arial,helvetica,sans-serif;
+    text-align:left;
+    line-height:32px;
+    font-size:32px;
+    text-shadow:2px 2px 2px #000;
+    font-family:"Microsoft YaHei","微软雅黑","Microsoft JhengHei","宋体";
 }
 
 #slide2 ul {
     margin:45px 10px 0;
     font-size:21px;
-    text-shadow:2px 2px 2px #000000;
+    text-shadow:2px 2px 2px #000;
     font-family:"Stymie-Med",arial,helvetica,sans-serif;
     list-style:none;
     line-height:24px;
 }
 
 #slide2 li { margin:7px 0; }
-#slide2 .button-large { margin:20px 0 0 30px; }
-
 
 
 /** SLIDE 3 **/
@@ -468,25 +467,23 @@ HOMEPAGE STYLES
 }
 
 #slide3 .large {
-    text-align:center;
-    line-height:50px;
-    font-size:50px;
-    text-shadow:2px 2px 2px #000000;
-    font-family:"PopulaireMedium",arial,helvetica,sans-serif;
+    text-align:left;
+    line-height:32px;
+    font-size:32px;
+    text-shadow:2px 2px 2px #000;
+    font-family:"Microsoft YaHei","微软雅黑","Microsoft JhengHei","宋体";
 }
 
 #slide3 ul {
     margin:20px 10px 0;
     font-size:21px;
-    text-shadow:2px 2px 2px #000000;
+    text-shadow:2px 2px 2px #000;
     font-family:"Stymie-Med",arial,helvetica,sans-serif;
     list-style:none;
     line-height:24px;
 }
 
 #slide3 li { margin:7px 0; }
-#slide3 .button-large { margin:20px 0 0; }
-
 
 
 /** SLIDE 4 **/

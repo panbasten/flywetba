@@ -200,7 +200,7 @@ NAVIGATION STYLES
     vertical-align:bottom;
     line-height:28px;
     font-size:24px;
-    color:#FFF;
+    color:#fff;
     font-family:"Microsoft YaHei","微软雅黑","Microsoft JhengHei","宋体";
     text-decoration:none;
     letter-spacing:1px;
@@ -208,7 +208,8 @@ NAVIGATION STYLES
 
 #nav .menu .huge {
     font-size:24px;
-    color:#FFF;
+    line-height:1.8em;
+    color:#fff;
     font-family:"Microsoft YaHei","微软雅黑","Microsoft JhengHei","宋体";
     text-decoration:none;
     letter-spacing:1px;
@@ -216,7 +217,7 @@ NAVIGATION STYLES
 
 #nav .menu a:hover { text-decoration:underline; }
 #nav .menu a {
-    color:#FFF;
+    color:#ccc;
     font-size:16px;
 }
 
@@ -231,6 +232,10 @@ NAVIGATION STYLES
     background:url('../../images/2011/blank.png') repeat 0 0;
     *top:35px;
     *padding-top:40px;
+}
+
+#nav .menu td {
+	vertical-align: top;
 }
 
 #nav .block {
@@ -263,17 +268,11 @@ NAVIGATION STYLES
     height:42px;
 }
 
-#nav .resources .knotch,
-#nav .customers-love-us .knotch {
-    left:auto;
-    right:40px;
-}
-
-#nav .header-solution { left:-50px; }
-#nav .header-information { left:105px; }
-#nav .header-custom { right:210px; }
-#nav .header-partner { right:85px; }
-#nav .header-resource { right:-5px; }
+#nav .header-solution { left:20px; }
+#nav .header-information { left:145px; }
+#nav .header-custom { right:90px; }
+#nav .header-resource { right:0; }
+#nav .header-resource .knotch{ left: auto; right: 55px; }
 
 
 /** IE 7 **/
