@@ -1,5 +1,8 @@
 <?php
 	require_once (dirname(__FILE__) . "/include/common.inc.php");
+	
+	//require_once FLYWETINC."/include/common.inc.db.php";
+	
 	require_once FLYWETINC."/arc.partview.class.php";
 	
 	$GLOBALS['_arclistEnv'] = 'index';
