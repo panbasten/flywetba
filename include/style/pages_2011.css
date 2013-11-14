@@ -448,7 +448,7 @@ HOMEPAGE STYLES
 
 #slide2 ul {
     margin:45px 10px 0;
-    font-size:21px;
+    font-size:18px;
     text-shadow:2px 2px 2px #000;
     font-family:"Stymie-Med",arial,helvetica,sans-serif;
     list-style:none;
@@ -476,7 +476,7 @@ HOMEPAGE STYLES
 
 #slide3 ul {
     margin:20px 10px 0;
-    font-size:21px;
+    font-size:18px;
     text-shadow:2px 2px 2px #000;
     font-family:"Stymie-Med",arial,helvetica,sans-serif;
     list-style:none;
@@ -495,11 +495,11 @@ HOMEPAGE STYLES
 }
 
 #slide4 .large {
-    text-align:center;
-    line-height:50px;
-    font-size:50px;
-    text-shadow:2px 2px 2px #000000;
-    font-family:"PopulaireMedium",arial,helvetica,sans-serif;
+    text-align:left;
+    line-height:32px;
+    font-size:32px;
+    text-shadow:2px 2px 2px #000;
+    font-family:"Microsoft YaHei","微软雅黑","Microsoft JhengHei","宋体";
 }
 
 

@@ -198,7 +198,7 @@ NAVIGATION STYLES
 
 #nav .top > li > a {
     vertical-align:bottom;
-    line-height:28px;
+    line-height:24px;
     font-size:24px;
     color:#fff;
     font-family:"Microsoft YaHei","微软雅黑","Microsoft JhengHei","宋体";
@@ -207,7 +207,7 @@ NAVIGATION STYLES
 }
 
 #nav .menu .huge {
-    font-size:24px;
+    font-size:18px;
     line-height:1.8em;
     color:#fff;
     font-family:"Microsoft YaHei","微软雅黑","Microsoft JhengHei","宋体";
@@ -217,8 +217,8 @@ NAVIGATION STYLES
 
 #nav .menu a:hover { text-decoration:underline; }
 #nav .menu a {
-    color:#ccc;
-    font-size:16px;
+    color:#eee;
+    font-size:14px;
 }
 
 #nav .top > li:hover > a { color:#DF6F03; }
@@ -353,13 +353,13 @@ FOOTER STYLES
 }
 
 #privacy-links {
-    font-size:20px;
-    margin:20px 0 0;
+    font-size:18px;
+    margin:10px 0 5px;
 }
 #copyright {
-    font-family:arial,helvetica,sans-serif;
+    font-family:"Microsoft YaHei","微软雅黑","Microsoft JhengHei","宋体";
     margin:0;
-    font-size:10px;
+    font-size:12px;
 }
 
 #social-icons {
@@ -951,3 +951,11 @@ OS SPECIFIC STYLES
     margin-left:20px;
 }
 
+.boiler_plate_content #main_only {
+    float:left;
+    padding:0 !important;
+    position:static !important;
+    width:836px;
+    margin-right:100px;
+    margin-left:100px;
+}
